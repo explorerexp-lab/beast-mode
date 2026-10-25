@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Beast Mode
+GenericName=System Performance Optimizer
+Comment=Optimize laptop for heavy workloads and agentic tasks
+Exec=/home/explorer01/.local/bin/beast-mode-app
+Icon=beast-mode
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;System;Utility;
+Keywords=beast;mode;performance;overclock;ryzen;power;speed;turbo;settings;
+StartupNotify=true
+X-GNOME-UsesNotifications=true
