@@ -82,6 +82,14 @@ sudo /home/explorer01/hobby/beast-mode/daemon/install-root-helper.sh
 
 ---
 
+## Documentation and Technical Context
+
+Detailed technical specifications and developer guidelines are maintained in the `docs/` directory:
+- **[System Architecture and Hardware Context](docs/ARCHITECTURE.md)**: Deep dive into the AMD Ryzen 5 5500U, `amd-pstate-epp` driver, zram memory compression, Realtek RTL8822CE power saving, D-Bus protocols, and the Snapshot Reversibility protocol.
+- **[Developer Guide and Extending Beast Mode](docs/DEVELOPMENT.md)**: Step-by-step instructions for adding new granular toggles, verification workflows, debugging logs, and future roadmap items.
+
+---
+
 ## Directory Structure
 ```
 /home/explorer01/hobby/beast-mode/
@@ -98,6 +106,10 @@ sudo /home/explorer01/hobby/beast-mode/daemon/install-root-helper.sh
 ├── extension/
 │   ├── metadata.json            # GNOME Shell extension metadata
 │   └── extension.js             # GNOME Shell extension entrypoint
+├── docs/
+│   ├── ARCHITECTURE.md          # In-depth architectural analysis
+│   └── DEVELOPMENT.md           # Developer guide and contributing context
+├── install.sh                   # User-space single-command installer
 └── assets/
     ├── beast-mode.svg           # Application icon
     └── beast-mode.desktop       # Desktop entry file
